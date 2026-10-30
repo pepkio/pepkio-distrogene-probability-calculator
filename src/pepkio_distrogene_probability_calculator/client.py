@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """HTTP Client for Pepkio distrogene-probability-calculator tool API."""
 
 import os

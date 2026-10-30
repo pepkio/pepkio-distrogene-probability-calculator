@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Data models for pepkio-distrogene-probability-calculator."""
 
 from typing import Any, Dict, List, Literal, Optional

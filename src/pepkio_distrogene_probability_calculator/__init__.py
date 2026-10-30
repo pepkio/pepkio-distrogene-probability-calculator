@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Pepkio DistroGene Probability Calculator Python Client."""
 
 from .client import AsyncPepkioClient, PepkioClient

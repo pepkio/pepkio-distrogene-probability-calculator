@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Exception definitions for pepkio-distrogene-probability-calculator."""
 
 from typing import Any, Dict, Optional
