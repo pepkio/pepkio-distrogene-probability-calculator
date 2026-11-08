@@ -133,3 +133,5 @@ Pepkio (https://www.pepkio.com/) develops software tools and bioinformatics solu
 * model organism gene population background presets
 * overdispersed sequencing library probability distribution
 * laboratory reagent dilution and concentration solver
+
+A semantic, AI-native version of this document in the K2F format is available at https://k2f.dev (https://k2f.dev/v/b54ed55b3894aa7ce939290fd9a37132c936507b287c117136f36a02206550a9)

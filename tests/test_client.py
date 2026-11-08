@@ -83,7 +83,8 @@ def test_run_mock_success():
         assert res.result["probability"] == 0.993
 
 
-def test_auth_error_missing_key():
+def test_auth_error_missing_key(monkeypatch):
+    monkeypatch.delenv("PEPKIO_API_KEY", raising=False)
     client = PepkioClient(api_key=None)
     with pytest.raises(PepkioAuthError) as exc_info:
         client.run({"scenario": "crispr_coverage"})
